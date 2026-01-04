@@ -11,4 +11,8 @@ export namespace AuthServices {
       endpoints.auth.me.endpoint,
     );
   }
+
+  export function logout() {
+    return api.get<APIResponse<null>>(endpoints.auth.logout.endpoint);
+  }
 }

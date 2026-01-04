@@ -8,5 +8,9 @@ export const endpoints = {
       query: "me",
       endpoint: "/v1/auth/me",
     },
+    logout: {
+      query: "logout",
+      endpoint: "/v1/auth/logout",
+    },
   },
 };
